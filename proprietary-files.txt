@@ -985,7 +985,6 @@ vendor/lib64/libminksocket_vendor.so
 
 # VM mem
 vendor/lib/libvmmem.so
-vendor/lib64/libvmmem.so
 
 # VPP
 vendor/bin/hw/qconfigservice
