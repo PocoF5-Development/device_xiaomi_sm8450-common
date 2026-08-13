@@ -712,6 +712,12 @@
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "CPUBigPlusClusterMinFreq",
+      "Duration": 0,
+      "Value": "1651200"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMaxFreq",
       "Duration": 0,
       "Value": "580000000"
@@ -739,6 +745,30 @@
       "Node": "UclampTALatency",
       "Duration": 0,
       "Value": "1"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "PMQoSCpuDmaLatency",
+      "Duration": 0,
+      "Value": "44"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "CPUBWMinFreq",
+      "Duration": 0,
+      "Value": "1555000"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "LLCCBWMinFreq",
+      "Duration": 0,
+      "Value": "600000"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "L3MinFreq",
+      "Duration": 0,
+      "Value": "1267200"
     },
     {
       "PowerHint": "Flipendo",
