@@ -107,17 +107,17 @@ $(call soong_config_set,libcameraservice,ext_lib,libcameraservice_extension.xiao
 
 # Dalvik
 PRODUCT_PRODUCT_PROPERTIES += \
-    dalvik.vm.heapstartsize?=24m \
-    dalvik.vm.heapgrowthlimit?=512m \
+    dalvik.vm.heapstartsize?=16m \
+    dalvik.vm.heapgrowthlimit?=384m \
     dalvik.vm.heapsize?=512m \
     dalvik.vm.heaptargetutilization?=0.75 \
     dalvik.vm.heapminfree?=8m \
-    dalvik.vm.heapmaxfree?=96m \
+    dalvik.vm.heapmaxfree?=32m \
     dalvik.vm.foreground-heap-growth-multiplier?=1.0 \
     dalvik.vm.enable_time_based_gc_trigger?=true \
     dalvik.vm.usejit?=true \
-    dalvik.vm.jitmaxsize?=512m \
-    dalvik.vm.jitinitialsize?=64m \
+    dalvik.vm.jitmaxsize?=128m \
+    dalvik.vm.jitinitialsize?=16m \
     dalvik.vm.jitthreshold?=5000 \
     dalvik.vm.jitwarmupthreshold?=2500 \
     dalvik.vm.jitpthreadpriority?=8 \
@@ -127,7 +127,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.madvise.artfile.size?=0 \
     dalvik.vm.usap_pool_enabled?=true \
     dalvik.vm.usap_pool_size_min?=1 \
-    dalvik.vm.usap_pool_size_max?=5 \
+    dalvik.vm.usap_pool_size_max?=4 \
     dalvik.vm.usap_refill_threshold?=1 \
     dalvik.vm.usap_pool_refill_delay_ms?=3000
 
