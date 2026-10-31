@@ -445,19 +445,19 @@
       "PowerHint": "INTERACTION",
       "Node": "CPUBigClusterMinFreq",
       "Duration": 0,
-      "Value": "1209600"
+      "Value": "1324800"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBigPlusClusterMinFreq",
       "Duration": 0,
-      "Value": "921600"
+      "Value": "1036800"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "UclampTAMin",
       "Duration": 0,
-      "Value": "20"
+      "Value": "30"
     },
     {
       "PowerHint": "INTERACTION",
@@ -523,13 +523,25 @@
       "PowerHint": "INTERACTION",
       "Node": "GPUMinFreq",
       "Duration": 0,
-      "Value": "285000000"
+      "Value": "324000000"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "GPUIdleTimer",
       "Duration": 0,
       "Value": "2000"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "UclampTALatency",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "PMQoSCpuDmaLatency",
+      "Duration": 0,
+      "Value": "44"
     },
     {
       "PowerHint": "LAUNCH",
@@ -588,7 +600,7 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "PMQoSCpuDmaLatency",
-      "Duration": 1000,
+      "Duration": 2000,
       "Value": "44"
     },
     {
@@ -655,7 +667,7 @@
       "PowerHint": "LAUNCH",
       "Node": "GPUMinFreq",
       "Duration": 2000,
-      "Value": "324000000"
+      "Value": "364000000"
     },
     {
       "PowerHint": "LAUNCH",
@@ -728,6 +740,18 @@
       "Node": "L3MinFreq",
       "Duration": 0,
       "Value": "1267200"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "UclampTALatency",
+      "Duration": 0,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "PMQoSCpuDmaLatency",
+      "Duration": 0,
+      "Value": "44"
     },
     {
       "PowerHint": "FIXED_PERFORMANCE",
