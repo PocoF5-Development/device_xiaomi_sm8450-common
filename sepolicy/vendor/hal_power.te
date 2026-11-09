@@ -17,3 +17,6 @@ typeattribute hal_power_default mlstrustedsubject;
 # Apply per-thread uclamp for app and SurfaceFlinger hint sessions.
 allow hal_power_default self:global_capability_class_set sys_nice;
 allow hal_power_default { appdomain surfaceflinger }:process setsched;
+
+# system server
+allow hal_power_default system_server:process setsched;
