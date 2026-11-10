@@ -500,6 +500,16 @@
       "DefaultIndex": 0,
       "ResetOnInit": false,
       "Type": "Event"
+    },
+    {
+      "Name": "SchedBoost",
+      "Path": "/proc/sys/walt/sched_boost",
+      "Values": [
+        "3",
+        "0"
+      ],
+      "DefaultIndex": 1,
+      "ResetOnInit": true
     }
   ],
   "Actions": [
@@ -994,6 +1004,12 @@
       "Node": "GPUMinFreq",
       "Duration": 100,
       "Value": "324000000"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "SchedBoost",
+      "Duration": 1000,
+      "Value": "3"
     },
     {
       "PowerHint": "DISPLAY_INACTIVE",
