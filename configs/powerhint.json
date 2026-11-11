@@ -32,7 +32,19 @@
       "HBoostSevereJankPidPu": 4.0,
       "JankCheckTimeFactor": 1.2,
       "LowFrameRateThreshold": 25,
-      "MaxRecordsNum": 50
+      "MaxRecordsNum": 50,
+      "HBoostSevereJankThreshold": 4,
+      "HBoostUclampMinFloorRange": [
+        192,
+        384
+      ],
+      "HBoostUclampMinCeilingRange": [
+        512,
+        800
+      ],
+      "HeuristicRampup": true,
+      "DefaultRampupMult": 1,
+      "HighRampupMult": 4
     },
     {
       "Name": "ADPF_BLUR",
@@ -67,7 +79,19 @@
       "JankCheckTimeFactor": 1.2,
       "LowFrameRateThreshold": 25,
       "MaxRecordsNum": 50,
-      "GpuCapacityBoostMax": 25000
+      "GpuCapacityBoostMax": 25000,
+      "HBoostSevereJankThreshold": 4,
+      "HBoostUclampMinFloorRange": [
+        192,
+        384
+      ],
+      "HBoostUclampMinCeilingRange": [
+        512,
+        800
+      ],
+      "HeuristicRampup": true,
+      "DefaultRampupMult": 1,
+      "HighRampupMult": 4
     },
     {
       "Name": "ADPF_GAME",
@@ -1010,40 +1034,6 @@
       "Node": "SchedBoost",
       "Duration": 1000,
       "Value": "3"
-    },
-    {
-      "PowerHint": "DISPLAY_INACTIVE",
-      "Node": "CPULittleClusterMaxFreq",
-      "Duration": 0,
-      "Value": "300000"
-    },
-    {
-      "PowerHint": "DISPLAY_INACTIVE",
-      "Node": "CPUBigClusterMaxFreq",
-      "Duration": 0,
-      "Value": "633600"
-    },
-    {
-      "PowerHint": "DISPLAY_INACTIVE",
-      "Node": "CPUBigPlusClusterMaxFreq",
-      "Duration": 0,
-      "Value": "787200"
-    },
-    {
-      "PowerHint": "DISPLAY_INACTIVE",
-      "Node": "GPUMaxFreq",
-      "Duration": 0,
-      "Value": "220000000"
-    },
-    {
-      "PowerHint": "DISPLAY_INACTIVE",
-      "Type": "MaskHint",
-      "Value": "EXPENSIVE_RENDERING"
-    },
-    {
-      "PowerHint": "DISPLAY_INACTIVE",
-      "Type": "MaskHint",
-      "Value": "GAME"
     },
     {
       "PowerHint": "GAME",
