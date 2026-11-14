@@ -58,7 +58,7 @@ echo 325 > /proc/sys/walt/walt_low_latency_task_threshold
 echo 1-2 > /dev/cpuset/audio-app/cpus
 echo 0-2 > /dev/cpuset/background/cpus
 echo 0-2 > /dev/cpuset/system-background/cpus
-echo 0-3 > /dev/cpuset/restricted/cpus
+echo 0-7 > /dev/cpuset/restricted/cpus
 echo 0-6 > /dev/cpuset/foreground/cpus
 echo 0-7 > /dev/cpuset/top-app/cpus
 
